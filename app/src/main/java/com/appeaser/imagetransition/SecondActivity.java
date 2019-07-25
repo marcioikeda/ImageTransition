@@ -46,7 +46,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
         backdrop = (TransitionImageView) findViewById(R.id.picture);
-        Picasso.with(this).load(R.drawable.sample).into(backdrop);
+        //Picasso.get().load(R.drawable.sample).into(backdrop);
 
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);

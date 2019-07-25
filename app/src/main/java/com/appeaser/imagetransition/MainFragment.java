@@ -51,7 +51,7 @@ public class MainFragment extends Fragment {
         dot = (TransitionImageView) view.findViewById(R.id.image_circle);
         FrameLayout flParent = (FrameLayout) view.findViewById(R.id.fl_parent);
 
-        Picasso.with(getContext()).load(R.drawable.sample).into(dot);
+        //Picasso.get().load(R.drawable.sample).into(dot);
 
         // Launch second Activity
         dot.setOnClickListener(new View.OnClickListener() {

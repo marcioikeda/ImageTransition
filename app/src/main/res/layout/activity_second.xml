@@ -11,6 +11,7 @@
         android:scaleType="centerCrop"
         android:transitionName="@string/blue_name"
         android:id="@+id/picture"
+        android:src="@drawable/curved_toolbar"
         app:tiv_rounding="0"/>
 
     <TextView
